@@ -1,6 +1,9 @@
 # salary-farming
 Funny educational farming game that based on your own salary and expenses
 
+# Demo
+[Live Demo](https://grosmar.github.io/salary-farming/bin/index.html)
+
 # Prerequirements
 - Android Studio & Android SDK
 - Cordova 
