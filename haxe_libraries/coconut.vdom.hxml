@@ -1,0 +1,3 @@
+# @install: lix --silent download "haxelib:coconut.vdom#0.4.2" into coconut.vdom/0.4.2/haxelib
+-D coconut.vdom=0.4.2
+-cp ${HAXESHIM_LIBCACHE}/coconut.vdom/0.4.2/haxelib/

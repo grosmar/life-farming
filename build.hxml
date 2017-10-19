@@ -1,0 +1,5 @@
+-cp src
+-dce full
+-lib coconut.vdom
+-main salaryfarming.Main
+-js www/js/index.js 
