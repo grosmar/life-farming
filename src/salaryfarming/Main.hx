@@ -1,7 +1,9 @@
-package;
+package salaryfarming;
 
+import coconut.Ui.hxx;
 import js.Browser;
-import salaryfarming.model.MainModel;
+import salaryfarming.model.GameModel;
+import salaryfarming.view.GameView;
 import vdom.VDom.*;
 import view.*;
 import coconut.Ui.hxx;
@@ -20,14 +22,10 @@ class Main
 
 	public function new()
 	{
-		//var gameModel = new GameModel();
+		var gameModel = new GameModel();
 		
-		var mainModel = new MainModel();
+		var root = hxx('<GameView model={gameModel} />');
 		
-		//var root = hxx('<GameView model={mainModel} />');
-		
-		var root = hxx('<div id="root" class="container">
-			<div class="square"><BottleView /></div></div>');
 		Browser.document.body.appendChild( root.toElement() );
 	}
 
